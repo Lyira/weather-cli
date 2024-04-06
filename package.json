@@ -1,0 +1,35 @@
+{
+  "name": "weather-cli-lyira",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lyira",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "4.14.202",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "homepage": "https://sunuliya.biz.ua",
+  "repository": {
+    "type": "git",
+    "url": "https://sunuliya.biz.ua"
+  },
+  "bugs": {
+    "url": "https://sunuliya.biz.ua",
+    "email": "lyira@ukr.net"
+  }
+}
